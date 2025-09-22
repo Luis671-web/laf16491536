@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario Neón - Login & Sign</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon.ico">
+
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+
+        <div class="card neon-border text-white p-4">
+
+            <div class="text-center mb-4">
+
+                <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap Logo" width="80" height="80">
+
+            </div>
+
+            <form id="login-form">
+
+                <h2 class="text-center neon-text mb-4">Iniciar Sesión</h2>
+
+                <div class="mb-3">
+
+                    <label for="login-email" class="form-label neon-text">Correo Electrónico</label>
+
+                    <input type="email" class="form-control neon-input" id="login-email" required>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label for="login-password" class="form-label neon-text">Contraseña</label>
+
+                    <input type="password" class="form-control neon-input" id="login-password" required>
+
+                </div>
+
+                <button type="submit" class="btn w-100 neon-button">Entrar</button>
+
+            </form>
+
+            <form id="signup-form" class="d-none">
+
+                <h2 class="text-center neon-text mb-4">Registrarse</h2>
+
+                <div class="mb-3">
+
+                    <label for="signup-email" class="form-label neon-text">Correo Electrónico</label>
+
+                    <input type="email" class="form-control neon-input" id="signup-email" required>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label for="signup-password" class="form-label neon-text">Contraseña</label>
+
+                    <input type="password" class="form-control neon-input" id="signup-password" required>
+
+                </div>
+
+                <button type="submit" class="btn w-100 neon-button">Registrar</button>
+
+            </form>
+
+            <div class="text-center mt-3">
+
+                <a href="#" id="toggle-form" class="neon-link">¿No tienes una cuenta? Regístrate</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
